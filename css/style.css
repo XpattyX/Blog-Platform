@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: #334770;
+    color: #fff;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s ease-in-out;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .1s ease-in-out;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* ----------------------------------------------#NAV */
+nav {
+    width: 100%;
+    height: 72px;
+    background-color: #C7DAFF;
+    
+}
+.nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.nav-grid-item:nth-child(1) {
+    margin: auto 0;
+    display: inline-flex;
+    gap: 24px;
+    justify-self: start;
+}
+.nav-grid-item:nth-child(1) img {
+    width: 151px;
+}
+.nav-grid-item:nth-child(1) ul {
+    margin: auto 0;
+    display: inline-flex;
+    gap: 24px;
+    list-style: none;
+}
+.nav-grid-item:nth-child(1) ul a {
+    padding: 8px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 24px;
+    transition: .3s ease-in-out;
+}
+.nav-grid-item:nth-child(1) ul a:hover {
+    padding: 8px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 24px;
+    background-color: #fff;
+}
+.nav-grid-item:nth-child(2) {
+    margin: auto 0;
+    justify-self: center;
+}
+.nav-grid-item:nth-child(2) input {
+    padding: 8px 16px;
+    width: 238px;
+    height: 35px;
+    border: 1px solid #808080;
+    border-radius: 24px;
+    font-size: 16px;
+}
+.nav-grid-item:nth-child(3) {
+    display: inline-flex;
+    margin: auto 0;
+    justify-self: end;
+    gap: 24px;
+}
+.nav-grid-item:nth-child(3) a {
+    padding: 8px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 24px;
+    text-decoration: underline;
+}
+.nav-grid-item:nth-child(3) button {
+    width: 151px;
+    height: 40px;
+}
