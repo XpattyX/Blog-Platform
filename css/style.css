@@ -783,8 +783,11 @@ footer {
     .highlight {
         margin: 24px 0;
     }
+    .highlight img {
+        width: 100%;
+    }
     .highlight-content {
-        width: auto;
+        width: 100%;
         height: auto;
         padding: 24px;
     }
@@ -793,7 +796,7 @@ footer {
         gap:8px;
     }
     .highlight-content img {
-        width: 652px;
+        width: 100%;
         height: auto;
     }
     .highlight-content h1 {
@@ -822,7 +825,7 @@ footer {
         gap: 12px;
     }
     .explore-grid .imgbox > img {
-        width: 350px;
+        width: 100%;
     }
     /* -------------------------------------------------#Blog PAGE */
     /* ----------------------------------#Main-blog-content */
